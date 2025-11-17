@@ -4,13 +4,19 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-
+node:latest
 jenkinsci/blueocean:latest
 nginx:latest
 mysql:latest
 mysql:8.4
 redis:latest
 postgres:latest
+
+openjdk:17-jdk-slim
+openjdk:17-jre-slim
+openjdk:8-jre-alpine
+maven:3.9.6-eclipse-temurin-17 
+gcr.io/distroless/java17-debian11 
 
 # 多架构示例
 --platform=linux/amd64 alpine:latest
