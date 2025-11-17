@@ -19,7 +19,7 @@ maven:3.9.6-eclipse-temurin-17
 gcr.io/distroless/java17-debian11 
 
 # docker
-portainer-ce:latest
+portainer/portainer-ce
 
 # 多架构示例
 --platform=linux/amd64 alpine:latest
