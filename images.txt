@@ -10,3 +10,4 @@ nginx:1.25
 mysql:8.0
 # 多架构示例
 --platform=linux/amd64 alpine:latest
+
