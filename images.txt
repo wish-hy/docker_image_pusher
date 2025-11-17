@@ -7,6 +7,7 @@ xhofe/alist:latest
 node:latest
 jenkinsci/blueocean:latest
 jenkins/jenkins:jdk17
+jenkins/jenkins:2.528.2-lts-jdk21
 
 nginx:latest
 mysql:latest
